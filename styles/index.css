@@ -39,24 +39,29 @@ body {
 }
 
 .hero {
-
+    display: flex;
+    flex-direction: column;
 }
 
 .hero h1 {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
+    margin: 0 auto;
 
 }
 
 .hero p {
     color: #E5E7EB;
     font-size: 18px;
+    margin: 0;
 
 }
 
 .hero-image {
     width: 400px;
+    height: auto;
+
 }
 
 

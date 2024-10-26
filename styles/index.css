@@ -1,6 +1,8 @@
 body {
     font-family: "Roboto", serif;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -27,4 +29,29 @@ body {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+.container {
+    background-color: #1F2937;
+
+}
+
+.hero {
+    
+}
+
+.hero h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+}
+
+.hero p {
+    color: #E5E7EB;
+    font-size: 18px;
+
+}
+
+.hero-image {
+    height: 250px;
+}
+
 

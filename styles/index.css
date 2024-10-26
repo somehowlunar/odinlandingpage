@@ -35,7 +35,6 @@ body {
     display: flex;
     padding: 80px 160px 60px 160px;
     gap: 80px;
-    align-items: center;
 }
 
 .hero {
@@ -47,21 +46,31 @@ body {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
-    margin: 0 auto;
-
+    margin: 0;
 }
 
 .hero p {
     color: #E5E7EB;
     font-size: 18px;
-    margin: 0;
-
 }
 
 .hero-image {
     width: 400px;
     height: auto;
+}
+
+.signup-button {
+    width: 90px;
+    height: 30px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
 
 }
 
-
+.signup-button:hover {
+    background-color: #81acec;
+}

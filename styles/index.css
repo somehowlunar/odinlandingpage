@@ -32,16 +32,21 @@ body {
 
 .container {
     background-color: #1F2937;
-
+    display: flex;
+    padding: 80px 160px 60px 160px;
+    gap: 80px;
+    align-items: center;
 }
 
 .hero {
-    
+
 }
 
 .hero h1 {
     color: #F9FAF8;
     font-size: 48px;
+    font-weight: 900;
+
 }
 
 .hero p {
@@ -51,7 +56,7 @@ body {
 }
 
 .hero-image {
-    height: 250px;
+    width: 400px;
 }
 
 

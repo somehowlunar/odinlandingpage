@@ -164,3 +164,11 @@ padding-right: 200px;
 .action-container h3{
     margin: 0;
 }
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

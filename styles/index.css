@@ -74,3 +74,20 @@ body {
 .signup-button:hover {
     background-color: #81acec;
 }
+
+.item {
+    height: 150px;
+    width: 150px;
+    border: 2px solid #3882F6;
+    border-radius: 12px;
+    
+}
+
+.info {
+    text-align: center;
+}
+
+.body {
+    display: flex;
+    justify-content: space-evenly;
+}

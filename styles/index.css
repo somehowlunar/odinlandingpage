@@ -78,7 +78,7 @@ body {
 .item {
     height: 150px;
     width: 150px;
-    border: 2px solid #3882F6;
+    border: 5px solid #3882F6;
     border-radius: 12px;
 
 }
@@ -97,4 +97,16 @@ body {
 
 .title {
     text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    text-align: center;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
 }
